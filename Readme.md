@@ -10,7 +10,7 @@ or just run php script in src directory
 
 `php src/index.php`
 
-
+tett
 ### Step 2
 
 Please take a look at the `openapi.yaml` file. It can be imported to swagger `editor.swagger.io` or to `postman`.
