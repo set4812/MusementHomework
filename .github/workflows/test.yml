@@ -12,9 +12,5 @@ jobs:
       TC_NPM_REGISTRY_ACCESS_TOKEN: ${{ secrets.TC_NPM_REGISTRY_ACCESS_TOKEN }}
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '11.x'
-          cache: npm
       - run: echo "działa"
 
